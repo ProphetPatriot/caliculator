@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.Caliculator" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.Caliculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here -->
     </style>
 </resources>
