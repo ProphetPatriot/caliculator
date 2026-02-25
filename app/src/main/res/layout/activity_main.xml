@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Коэффициент A"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Коэффициент B"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Коэффициент C"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonSolve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Решить" />
+
+    <Button
+        android:id="@+id/buttonSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сумма коэффициентов"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Результат появится здесь"
+        android:textSize="18sp" />
+
+</LinearLayout>
